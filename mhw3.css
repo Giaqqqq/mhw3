@@ -1,0 +1,175 @@
+html{ 
+	font-size:20px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media (max-width: 557px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-height: 750px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 290px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body{
+  margin:0px;
+  color:black;
+  text-align:center;
+  font-size:1.5rem;
+  background-color:#fef6dd
+}
+
+
+#dropdown{display:none;}
+
+
+@media (max-width:500px){
+	#dropdown{
+		 display:block;
+	}
+	
+	#dropdown img{width:50px; position:relative;}
+      #dropdown #dropdown-content {
+ 		 display: none;
+             position:relative;
+             font-size:1rem;
+	}
+	#dropdown:hover #dropdown-content {
+  		 display: block;
+	}
+
+}
+
+#overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0,0.3);
+  height:35%;
+  width:100%
+  z-index:0;
+}
+
+header{
+	background-image: url(background.jpg);
+	background-size:cover;
+	background-position:center 65%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:35%;
+	z-index:-1;
+} 
+
+header nav{
+  position:relative;
+}
+
+
+
+
+#scritte h1{
+	margin-bottom:0px;
+	max-width:39rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#link nav{
+      display:flex;
+      justify-content: space-between
+}
+
+#link span{
+    font-weight:bold;
+    background-color:#972637;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    padding: .3%;
+    margin-left:0.1rem;
+    margin-right:0.2rem;
+  
+}
+
+#link span:link {
+  text-decoration: none;
+  color:black;
+}
+
+#link span:hover{
+  background-color: #318CE7;
+}
+
+
+@media (max-width:500px){
+	#link nav{display:none;}
+}
+
+#scritte{
+	position:relative;
+	color:white;
+}
+
+#social{
+	display:flex;
+	justify-content: center;
+}
+
+#social img{
+  	width:1.5rem;
+}
+#logo img{
+  	position: absolute;
+  	top: 30%;
+  	right:46%;
+	width:5rem;
+}
+
+@media(max-width:500px){
+	#logo img{
+		right:40%;
+	}
+}
+
+h6{
+	margin-top:3rem;
+}
+
+
+
+@media (max-width:500px){
+	#contenuti{
+		margin-top:1rem;
+	}
+}
+
+
+
+
+#footer{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, .8);
+  text-align: center;
+}
+
+
+
